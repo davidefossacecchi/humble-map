@@ -1,0 +1,25 @@
+{
+    "name": "dfossacecchi/humble-map",
+    "description": "Really simple maps for php",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Davide Fossacecchi",
+            "email": "davide.fossacecchi@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": ">= 7.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Dfossacecchi\\HumbleMap\\": "src/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
