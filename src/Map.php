@@ -203,4 +203,5 @@ class Map implements \Iterator, \ArrayAccess, \Countable, \Serializable, \JsonSe
     {
         return $this->data;
     }
+    
 }
